@@ -1,6 +1,7 @@
 package br.com.etecia.myapp;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
@@ -14,6 +15,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         idRecyclerViewFilmes = findViewById(R.id.idRecyclerViewFilmes);
+
+
 
 
     }
